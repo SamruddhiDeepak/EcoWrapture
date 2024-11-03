@@ -1,0 +1,33 @@
+# Flask for backend server
+Flask==2.3.3
+
+# Flask-CORS for handling Cross-Origin Resource Sharing
+Flask-CORS==3.0.10
+
+# TensorFlow for AI model development
+tensorflow==2.14.0
+
+# Google API client for interacting with Google Generative AI
+google-generativeai==1.0.0  # Check the latest version as needed
+
+# Machine learning model dependencies
+scikit-learn==1.3.0  # For Random Forest model
+
+# Data manipulation and processing
+pandas==2.1.1
+numpy==1.26.0
+
+# Additional utilities
+requests==2.31.0  # For making API requests
+
+# React library
+react==18.2.0
+
+# React DOM for rendering React components
+react-dom==18.2.0
+
+# Axios for making HTTP requests
+axios==1.6.0
+
+# React scripts for running the app (if using create-react-app)
+react-scripts==5.0.1
