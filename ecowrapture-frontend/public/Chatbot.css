@@ -1,0 +1,20 @@
+.chatbot-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Ensures the content is centered even if the screen is tall */
+    background-color: #000000; /* Set background to black */
+    color: black; /* Set text color to black */
+}
+
+.welcome-text {
+    color: black; /* Set the text color for the welcome message to white */
+}
+
+.chatbot-content {
+    text-align: center; /* Centers the text */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white; /* White background for the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a card-like effect */
+}

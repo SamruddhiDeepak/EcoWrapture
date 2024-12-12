@@ -1,0 +1,51 @@
+.contact-page {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack the contact info vertically by default */
+    gap: 40px; /* Add space between the sections */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-vector/black-background-with-purple-orange-lines_483537-4186.jpg'); /* Gradient over the image */
+    background-size: cover; /* Make the background image cover the whole page */
+    background-position: center; /* Center the background image */
+    color: white; /* Change text color to white for better readability */
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content for each person */
+    gap: 15px; /* Space between name, image, and other info */
+    border-bottom: 1px solid #ddd; /* Optional: Add a line between sections */
+    padding-bottom: 20px; /* Space below each section */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circle shape for the photo */
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+.contact-page a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-page a:hover {
+    text-decoration: underline;
+}
+
+/* On larger screens, arrange the two people's contact info side by side */
+@media (min-width: 768px) {
+    .contact-page {
+        flex-direction: row; /* Display the sections side by side */
+        gap: 40px; /* Add space between the sections */
+    }
+
+    .person-info {
+        flex-direction: column; /* Keep each person's info in a column */
+        align-items: center;
+        width: 45%; /* Limit the width of each section to 45% */
+    }
+}

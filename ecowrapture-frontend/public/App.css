@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #000428, #004e92);
+  color: #fff;
+}
+
+.App-header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  color: #ff6600;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+              url('https://www.oliverinc.com/hubfs/Blog/Oliver-Blog-The-Lifecycle-of-Packaging--A-Sustainability-Journey.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-text h1 span {
+  color: #ff6600;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+

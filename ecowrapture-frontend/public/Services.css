@@ -1,0 +1,190 @@
+/* General page styling */
+.services-page {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), 
+                url('https://unpakful.com/cdn/shop/articles/sustainable-packaging.webp?v=1713539913');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    min-height: 100vh;
+    color: #fff; /* Text color for contrast */
+    background-repeat: no-repeat; /* Prevent repetition */
+}
+
+/* Main Heading Styling */
+h1 {
+    text-align: center;
+    color: #fff; /* White text for contrast */
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Form Section */
+.input-form {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: transparent; /* Make the form background transparent */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for emphasis */
+}
+
+.input-form h2 {
+    color: #fff; /* White text for contrast */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.input-form label {
+    font-size: 16px;
+    color: #fff; /* White text for contrast */
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-form input,
+.input-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background for input fields */
+    color: #000; /* Text color to make it readable */
+}
+
+/* Ensure dropdowns (select elements) also have transparent background */
+.input-form select {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    color: #000; /* White text color for dropdown */
+}
+
+/* Focus styles for input and select */
+.input-form input:focus,
+.input-form select:focus {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly darker background when focused */
+    outline: none;
+}
+
+/* Button styling */
+.input-form button {
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent button */
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-form button:hover {
+    background-color: rgba(0, 86, 179, 0.8);
+}
+
+/* Prediction Results */
+.prediction-result {
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: transparent; /* Make the prediction results background transparent */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for emphasis */
+}
+
+.prediction-result h2 {
+    color: #fff; /* White text for contrast */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.prediction-result p {
+    font-size: 16px;
+    color: #ddd; /* Slightly lighter text color */
+    margin-bottom: 10px;
+}
+
+.prediction-result strong {
+    color: #fff; /* White text for contrast */
+}
+
+/* Category-specific content */
+.category-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.category-content > div {
+    padding: 20px;
+    text-align: center;
+    background-color: transparent; /* Make the category content background transparent */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.category-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .input-form {
+        width: 80%;
+    }
+
+    .prediction-result {
+        width: 80%;
+    }
+
+    .category-content {
+        gap: 20px;
+    }
+
+    .category-content > div {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .category-content {
+        gap: 30px;
+    }
+
+    .category-content > div {
+        width: 30%;
+    }
+}
+
+
+.loading-indicator {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.loading-indicator p {
+    animation: fadeIn 1.5s infinite;
+}
+
+@keyframes fadeIn {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,80 @@
+/* NewsFeed.css */
+
+/* Container for the entire NewsFeed section */
+.news-container {
+    padding: 30px;
+    background-color: #f4f4f9;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+/* Heading for the news section */
+.news-container h2 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Dropdown for selecting category */
+.news-container select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Style for the news list container */
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    color: #333;
+}
+
+/* Individual news card style */
+.news-card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for news cards */
+.news-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Title for each article */
+.news-card h3 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Description text in the news card */
+.news-card p {
+    font-size: 1em;
+    color: ghostwhite;
+    margin-bottom: 15px;
+}
+
+/* Read more link */
+.news-card a {
+    font-size: 1em;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
