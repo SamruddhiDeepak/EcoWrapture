@@ -59,7 +59,7 @@ EcoWrapture is designed not only to provide sustainable packaging solutions but 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ecowrapture.git
+git clone https://github.com/SamruddhiDeepak/ecowrapture.git
 ```
 
 2. Navigate to the frontend directory:
@@ -93,7 +93,7 @@ npm start
 ```
 For the backend (in another terminal):
 ```bash
-python app.py  # Adjust based on your backend setup
+python app.py  
 ```
 
 ## Usage
